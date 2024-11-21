@@ -26,7 +26,7 @@ const Home = () => {
       <div className="container mx-auto text-center">
         <h1 className="text-3xl font-bold mb-4">Random Quotes Generator</h1>
         <button
-          className="bg-blue-500 text-white px-4 py-2 rounded shadow"
+          className="bg-blue-900 text-white px-4 py-2 rounded shadow"
           onClick={getQuote}
           disabled={loading}
         >
